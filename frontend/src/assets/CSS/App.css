@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #382c33;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 1rem 6rem 1rem 6rem;
+}
+
+.App-body {
+  background-color: #f9f9fb;
+  opacity: 1;
+}
+
+.App-footer {
+  background-color: #c49bb3;
+}
